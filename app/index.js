@@ -95,6 +95,7 @@ PoetGenerator.prototype.app = function app() {
     this.copy('post.handlebars', blog + '/views/partials/post.handlebars');
     this.copy('index.handlebars', blog + '/views/index.handlebars');
     this.copy('single_post.handlebars', blog + '/views/post.handlebars');
+    this.copy('test-post.md', blog + '/_posts/test-post.md');
 };
 
 PoetGenerator.prototype.projectfiles = function projectfiles() {
