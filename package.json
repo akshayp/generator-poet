@@ -20,7 +20,7 @@
     "url": "git://github.com/akshayp/generator-poet.git"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "istanbul cover --print summary _mocha -- -R spec"
   },
   "dependencies": {
     "yeoman-generator": "~0.12.0",
