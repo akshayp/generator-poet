@@ -68,7 +68,7 @@ PoetGenerator.prototype.app = function app() {
                     type = item['wp:post_type'][0];
 
                     if (type === 'attachment') {
-                        //parseutils.fetchAttachment(item);
+                        //parseutils.fetchAttachment(item, blog);
                         attachmentCount++;
                     } else if (type === 'page') {
                         parseutils.addPage(item, blog);
@@ -86,9 +86,20 @@ PoetGenerator.prototype.app = function app() {
         });
     }
 
-    //this.copy('_package.json', 'package.json');
+    this.copy('app.js', blog + '/app.js');
+    this.copy('routes.js', blog + '/routes.js');
+    this.copy('_package.json', blog + '/package.json');
+    this.copy('main.handlebars', blog + '/views/layouts/main.handlebars');
+    this.copy('footer.handlebars', blog + '/views/partials/footer.handlebars');
+    this.copy('nav.handlebars', blog + '/views/partials/nav.handlebars');
+    this.copy('post.handlebars', blog + '/views/partials/post.handlebars');
+    this.copy('index.handlebars', blog + '/views/index.handlebars');
+    this.copy('single_post.handlebars', blog + '/views/post.handlebars');
 };
 
 PoetGenerator.prototype.projectfiles = function projectfiles() {
-    this.copy('jshintrc', '.jshintrc');
+    var blog = this.blogName;
+
+    this.copy('jshintrc', blog + '/.jshintrc');
+    this.copy('travis.yml', blog + '/.travis.yml');
 };

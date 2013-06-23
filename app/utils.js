@@ -52,11 +52,11 @@ function addPost(post, blogPath) {
     fs.writeFile(blogPath + '/_posts/' + slug + '.md', content);
 }
 
-function fetchAttachment(attachment) {
+function fetchAttachment(attachment, blogPath) {
     var link = attachment['wp:attachment_url'][0],
         path = url.parse(link).path.split('/'),
         filename = path[path.length - 1],
-        localpath = 'public/img/upload/' + filename;
+        localpath = blogPath + '/public/img/upload/' + filename;
 
     fs.exists(localpath, function (exists) {
         if (!exists) {

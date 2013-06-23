@@ -1,0 +1,14 @@
+{
+    "name": "",
+    "version": "0.0.0",
+    "private": true,
+    "main": "app.js",
+    "dependencies": {
+        "express": "*",
+        "express3-handlebars": "*",
+        "poet": "*"
+    },
+    "engines": {
+      "node": ">=0.8.0"
+    }
+}
