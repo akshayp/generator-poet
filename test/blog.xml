@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0"
+    xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:wp="http://wordpress.org/export/1.2/"
+>
+<channel>
+    <title>Unstructured Scribbles</title>
+    <link>http://www.akshayp.com</link>
+    <wp:base_site_url>http://www.akshayp.com</wp:base_site_url>
+    <wp:base_blog_url>http://www.akshayp.com</wp:base_blog_url>
+    <wp:author><wp:author_id>1</wp:author_id><wp:author_login>admin</wp:author_login><wp:author_email>akshayrpatel@gmail.com</wp:author_email><wp:author_display_name><![CDATA[Akshay]]></wp:author_display_name><wp:author_first_name><![CDATA[Akshay]]></wp:author_first_name><wp:author_last_name><![CDATA[Patel]]></wp:author_last_name></wp:author>
+
+    <wp:category><wp:term_id>9</wp:term_id><wp:category_nicename>food</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[Food]]></wp:cat_name></wp:category>
+    <wp:category><wp:term_id>278</wp:term_id><wp:category_nicename>geek-stuff</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[Geek Stuff]]></wp:cat_name><wp:category_description><![CDATA[There has to be a geek stuff category on every blog.]]></wp:category_description></wp:category>
+    <wp:category><wp:term_id>277</wp:term_id><wp:category_nicename>infographics</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[Infographics]]></wp:cat_name><wp:category_description><![CDATA[Interesting infographs. Infographs are fun]]></wp:category_description></wp:category>
+    <wp:category><wp:term_id>27</wp:term_id><wp:category_nicename>photography</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[Photography]]></wp:cat_name></wp:category>
+    <wp:category><wp:term_id>290</wp:term_id><wp:category_nicename>quotes</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[Quotes]]></wp:cat_name></wp:category>
+    <wp:category><wp:term_id>18</wp:term_id><wp:category_nicename>technology</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[Technology]]></wp:cat_name></wp:category>
+    <wp:category><wp:term_id>3</wp:term_id><wp:category_nicename>travel</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[Travel]]></wp:cat_name></wp:category>
+    <wp:term><wp:term_id>282</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug>main</wp:term_slug><wp:term_name><![CDATA[Main]]></wp:term_name></wp:term>
+
+    <generator>http://wordpress.org/?v=3.5.1</generator>
+
+    <item>
+        <title>Five Guys</title>
+        <link>http://www.akshayp.com/culinary-aesthetics/tb-five-2/</link>
+        <pubDate>Tue, 01 Jul 2008 23:01:21 +0000</pubDate>
+        <dc:creator>admin</dc:creator>
+        <guid isPermaLink="false">http://www.akshayp.com/wp-content/uploads/2008/07/tb-five.jpg</guid>
+        <description></description>
+        <content:encoded><![CDATA[]]></content:encoded>
+        <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+        <wp:post_id>14</wp:post_id>
+        <wp:post_date>2008-07-01 16:01:21</wp:post_date>
+        <wp:post_date_gmt>2008-07-01 23:01:21</wp:post_date_gmt>
+        <wp:comment_status>open</wp:comment_status>
+        <wp:ping_status>open</wp:ping_status>
+        <wp:post_name>tb-five-2</wp:post_name>
+        <wp:status>inherit</wp:status>
+        <wp:post_parent>7</wp:post_parent>
+        <wp:menu_order>0</wp:menu_order>
+        <wp:post_type>attachment</wp:post_type>
+        <wp:post_password></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+        <wp:attachment_url>http://www.akshayp.com/wp-content/uploads/2008/07/tb-five.jpg</wp:attachment_url>
+        <wp:postmeta>
+            <wp:meta_key>_wp_attached_file</wp:meta_key>
+            <wp:meta_value><![CDATA[/home/.absents/akshayrpatel/akshayp.com/wp-content/uploads/2008/07/tb-five.jpg]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key>_wp_attachment_metadata</wp:meta_key>
+            <wp:meta_value><![CDATA[a:6:{s:5:"width";i:450;s:6:"height";i:300;s:14:"hwstring_small";s:23:"height='85' width='128'";s:4:"file";s:78:"/home/.absents/akshayrpatel/akshayp.com/wp-content/uploads/2008/07/tb-five.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:3:{s:4:"file";s:19:"tb-five-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;}s:6:"medium";a:3:{s:4:"file";s:19:"tb-five-300x200.jpg";s:5:"width";i:300;s:6:"height";i:200;}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}]]></wp:meta_value>
+        </wp:postmeta>
+    </item>
+    <item>
+        <title>Europe</title>
+        <link>http://www.akshayp.com/google-map-eurotrip-map/europe-2/</link>
+        <pubDate>Tue, 01 Jul 2008 23:03:06 +0000</pubDate>
+        <dc:creator>admin</dc:creator>
+        <guid isPermaLink="false">http://www.akshayp.com/wp-content/uploads/2008/07/europe.gif</guid>
+        <description></description>
+        <content:encoded><![CDATA[]]></content:encoded>
+        <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+        <wp:post_id>15</wp:post_id>
+        <wp:post_date>2008-07-01 16:03:06</wp:post_date>
+        <wp:post_date_gmt>2008-07-01 23:03:06</wp:post_date_gmt>
+        <wp:comment_status>open</wp:comment_status>
+        <wp:ping_status>open</wp:ping_status>
+        <wp:post_name>europe-2</wp:post_name>
+        <wp:status>inherit</wp:status>
+        <wp:post_parent>4</wp:post_parent>
+        <wp:menu_order>0</wp:menu_order>
+        <wp:post_type>attachment</wp:post_type>
+        <wp:post_password></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+        <wp:attachment_url>http://www.akshayp.com/wp-content/uploads/2008/07/europe.gif</wp:attachment_url>
+        <wp:postmeta>
+            <wp:meta_key>_wp_attached_file</wp:meta_key>
+            <wp:meta_value><![CDATA[/home/.absents/akshayrpatel/akshayp.com/wp-content/uploads/2008/07/europe.gif]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key>_wp_attachment_metadata</wp:meta_key>
+            <wp:meta_value><![CDATA[a:6:{s:5:"width";i:435;s:6:"height";i:375;s:14:"hwstring_small";s:23:"height='96' width='111'";s:4:"file";s:77:"/home/.absents/akshayrpatel/akshayp.com/wp-content/uploads/2008/07/europe.gif";s:5:"sizes";a:2:{s:9:"thumbnail";a:3:{s:4:"file";s:18:"europe-150x150.gif";s:5:"width";i:150;s:6:"height";i:150;}s:6:"medium";a:3:{s:4:"file";s:18:"europe-300x258.gif";s:5:"width";i:300;s:6:"height";i:258;}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}]]></wp:meta_value>
+        </wp:postmeta>
+    </item>
+    <item>
+        <title>Portfolio</title>
+        <link>http://www.akshayp.com/portfolio/</link>
+        <pubDate>Mon, 08 Sep 2008 15:32:38 +0000</pubDate>
+        <dc:creator>admin</dc:creator>
+        <guid isPermaLink="false">http://www.akshayp.com/?page_id=111</guid>
+        <description></description>
+        <content:encoded><![CDATA[]]></content:encoded>
+        <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+        <wp:post_id>111</wp:post_id>
+        <wp:post_date>2008-09-08 08:32:38</wp:post_date>
+        <wp:post_date_gmt>2008-09-08 15:32:38</wp:post_date_gmt>
+        <wp:comment_status>closed</wp:comment_status>
+        <wp:ping_status>closed</wp:ping_status>
+        <wp:post_name>portfolio</wp:post_name>
+        <wp:status>publish</wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>2</wp:menu_order>
+        <wp:post_type>page</wp:post_type>
+        <wp:post_password></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+        <wp:postmeta>
+            <wp:meta_key>_edit_last</wp:meta_key>
+            <wp:meta_value><![CDATA[1]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key>_wp_page_template</wp:meta_key>
+            <wp:meta_value><![CDATA[portfolio.php]]></wp:meta_value>
+        </wp:postmeta>
+    </item>
+    <item>
+        <title>About</title>
+        <link>http://www.akshayp.com/about/</link>
+        <pubDate>Thu, 29 Jan 2009 17:58:44 +0000</pubDate>
+        <dc:creator>admin</dc:creator>
+        <guid isPermaLink="false">http://www.akshayp.com/?page_id=416</guid>
+        <description></description>
+        <content:encoded><![CDATA[<h4>Who am I?</h4>
+
+<p>I was a student at Georgia Tech and recently graduated with a degree in Computer Engineering. Upon graduation, I decided to venture a "little" outside of my hardware education and go into web development. I am very passionate about building usable, responsive and interactive websites. Technology has been a passion from an early age. From the time I built my first computer at age 11, I have always been drawn to technology. Tinkering with code and playing with computer parts had become an integral part of my daily routine. I actively develop on the LAMP stack and am familiar with most modern frontend technologies including a whole host of frameworks.</p>
+
+<h4>What do I do?</h4>
+<p>I am currently pursuing a career in frontend development at Yahoo! Sports. You can view some of my previous work in the <a href="/portfolio">Portfolio</a> section of the site. A snapshot of my skill set and experience is available on LinkedIn. If you would like to get in touch with me for anything (jobs, networking, suggestions), please reach out to me on any of the social networks listed in the sidebar.</p>
+
+<h4>What is this blog for?</h4>
+<p>This blog publishes content about Web Technology, Design, and Travel primarily. There are code snippets and open sourced projects scattered in posts and categories all across the site. Feel free to comment on the various designs, photos and posts I have on this blog. Feedback is always welcome!</p>]]></content:encoded>
+        <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+        <wp:post_id>416</wp:post_id>
+        <wp:post_date>2009-01-29 10:58:44</wp:post_date>
+        <wp:post_date_gmt>2009-01-29 17:58:44</wp:post_date_gmt>
+        <wp:comment_status>closed</wp:comment_status>
+        <wp:ping_status>closed</wp:ping_status>
+        <wp:post_name>about</wp:post_name>
+        <wp:status>publish</wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>1</wp:menu_order>
+        <wp:post_type>page</wp:post_type>
+        <wp:post_password></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+        <wp:postmeta>
+            <wp:meta_key>_edit_last</wp:meta_key>
+            <wp:meta_value><![CDATA[1]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key>_wp_page_template</wp:meta_key>
+            <wp:meta_value><![CDATA[default]]></wp:meta_value>
+        </wp:postmeta>
+    </item>
+    <item>
+        <title>Make Terminal look good</title>
+        <link>http://www.akshayp.com/make-terminal-look-good/</link>
+        <pubDate>Sat, 17 Sep 2011 05:32:55 +0000</pubDate>
+        <dc:creator>admin</dc:creator>
+        <guid isPermaLink="false">http://www.akshayp.com/?p=1678</guid>
+        <description></description>
+        <content:encoded><![CDATA[The IR theme is one of the cleanest themes out there for terminal. Grab it from Todd's detailed blog linked below. I also use some of the colors from the theme to pretty up the shell a bit and make it look like:
+<br>
+<img src="http://img.skitch.com/20111017-jdqcdfnp7mymbta83423x6wp2.png" alt="Terminal Window" />
+
+<strong>Put these settings in your .bashrc or .bash_profile</strong>
+
+<pre class="prettyprint lang-bash linenums">
+export COLOR_NC='\033[0m' # No Color
+export COLOR_WHITE='\033[1;37m'
+export COLOR_BLACK='\033[0;30m'
+export COLOR_BLUE='\033[0;34m'
+export COLOR_LIGHT_BLUE='\033[1;34m'
+export COLOR_GREEN='\033[0;32m'
+export COLOR_LIGHT_GREEN='\033[1;32m'
+export COLOR_CYAN='\033[0;36m'
+export COLOR_LIGHT_CYAN='\033[1;36m'
+export COLOR_RED='\033[0;31m'
+export COLOR_LIGHT_RED='\033[1;31m'
+export COLOR_PURPLE='\033[0;35m'
+export COLOR_LIGHT_PURPLE='\033[1;35m'
+export COLOR_BROWN='\033[0;33m'
+export COLOR_YELLOW='\033[1;33m'
+export COLOR_GRAY='\033[1;30m'
+export COLOR_LIGHT_GRAY='\033[0;37m'
+</pre>
+
+<strong>Specify your shell to display time and current folder with home abbreviated as ~</strong>
+
+<pre class="prettyprint lang-bash linenums">
+export PS1="[\[${COLOR_LIGHT_RED}\]\T\[${COLOR_NC}\]][ \[${COLOR_LIGHT_BLUE}\]\w \[${COLOR_NC}\]] \[${COLOR_PURPLE}\]&gt; \[${COLOR_NC}\]"</pre>
+
+<a class="external" href="http://blog.toddwerth.com/entries/13">via Todd Werth</a>]]></content:encoded>
+        <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+        <wp:post_id>1678</wp:post_id>
+        <wp:post_date>2011-09-16 22:32:55</wp:post_date>
+        <wp:post_date_gmt>2011-09-17 05:32:55</wp:post_date_gmt>
+        <wp:comment_status>open</wp:comment_status>
+        <wp:ping_status>open</wp:ping_status>
+        <wp:post_name>make-terminal-look-good</wp:post_name>
+        <wp:status>publish</wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>0</wp:menu_order>
+        <wp:post_type>post</wp:post_type>
+        <wp:post_password></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+        <category domain="category" nicename="technology"><![CDATA[Technology]]></category>
+        <wp:postmeta>
+            <wp:meta_key>dsq_thread_id</wp:meta_key>
+            <wp:meta_value><![CDATA[]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key>_wp_old_slug</wp:meta_key>
+            <wp:meta_value><![CDATA[make-osx-terminal-look-good]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key>_edit_last</wp:meta_key>
+            <wp:meta_value><![CDATA[1]]></wp:meta_value>
+        </wp:postmeta>
+    </item>
+    <item>
+        <title>The Waking Life</title>
+        <link>http://www.akshayp.com/the-waking-life/</link>
+        <pubDate>Tue, 31 Jan 2012 07:28:05 +0000</pubDate>
+        <dc:creator>admin</dc:creator>
+        <guid isPermaLink="false">http://www.akshayp.com/?p=1705</guid>
+        <description></description>
+        <content:encoded><![CDATA[Excellent thought provocative movie.
+<blockquote>
+<img class="alignleft" title="Waking Life" src="http://www.akshayp.com/wp-content/uploads/2012/01/MV5BMjExMzA0MTUxOF5BMl5BanBnXkFtZTcwMDk3MjMyMQ@@._V1.jpeg" alt="Waking Life" height="375" />
+<p>The trick is to combine your waking rational abilities with the infinite possibilities of your dreams. Because, if you can do that, you can do anything.</p>
+</blockquote>
+<a class="external" href="http://www.imdb.com/title/tt0243017/">via IMDB</a>]]></content:encoded>
+        <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+        <wp:post_id>1705</wp:post_id>
+        <wp:post_date>2012-01-30 23:28:05</wp:post_date>
+        <wp:post_date_gmt>2012-01-31 07:28:05</wp:post_date_gmt>
+        <wp:comment_status>closed</wp:comment_status>
+        <wp:ping_status>closed</wp:ping_status>
+        <wp:post_name>the-waking-life</wp:post_name>
+        <wp:status>publish</wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>0</wp:menu_order>
+        <wp:post_type>post</wp:post_type>
+        <wp:post_password></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+        <category domain="category" nicename="technology"><![CDATA[Technology]]></category>
+        <wp:postmeta>
+            <wp:meta_key>_edit_last</wp:meta_key>
+            <wp:meta_value><![CDATA[1]]></wp:meta_value>
+        </wp:postmeta>
+    </item>
+    <item>
+        <title>CSS Tap Highlight Color</title>
+        <link>http://www.akshayp.com/css-tap-highlight-color/</link>
+        <pubDate>Fri, 15 Oct 2010 07:26:32 +0000</pubDate>
+        <dc:creator>admin</dc:creator>
+        <guid isPermaLink="false">http://www.akshayp.com/?p=1422</guid>
+        <description></description>
+        <content:encoded><![CDATA[Saw this on <a href="http://www.yuiblog.com/blog/2010/10/01/quick-tip-customizing-the-mobile-safari-tap-highlight-color/">YUI Blog</a>. Very cool and useful for mobile apps
+[gist id=627770]
+]]></content:encoded>
+        <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+        <wp:post_id>1422</wp:post_id>
+        <wp:post_date>2010-10-15 00:26:32</wp:post_date>
+        <wp:post_date_gmt>2010-10-15 07:26:32</wp:post_date_gmt>
+        <wp:comment_status>open</wp:comment_status>
+        <wp:ping_status>open</wp:ping_status>
+        <wp:post_name>css-tap-highlight-color</wp:post_name>
+        <wp:status>publish</wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>0</wp:menu_order>
+        <wp:post_type>post</wp:post_type>
+        <wp:post_password></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+        <category domain="category" nicename="technology"><![CDATA[Technology]]></category>
+        <wp:postmeta>
+            <wp:meta_key>_wp_old_slug</wp:meta_key>
+            <wp:meta_value><![CDATA[]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key>_edit_last</wp:meta_key>
+            <wp:meta_value><![CDATA[1]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key>dsq_thread_id</wp:meta_key>
+            <wp:meta_value><![CDATA[199260577]]></wp:meta_value>
+        </wp:postmeta>
+    </item>
+</channel>
+</rss>
