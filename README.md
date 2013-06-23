@@ -1,5 +1,5 @@
 # Generator-poet
-[![Build Status](https://travis-ci.org/akshayp/generator-poet.png?branch=master)](https://travis-ci.org/akshayp/generator-poet)[![Coverage Status](https://coveralls.io/repos/akshayp/generator-poet/badge.png)](https://coveralls.io/r/akshayp/generator-poet)
+[![Build Status](https://travis-ci.org/akshayp/generator-poet.png?branch=master)](https://travis-ci.org/akshayp/generator-poet) [![Coverage Status](https://coveralls.io/repos/akshayp/generator-poet/badge.png)](https://coveralls.io/r/akshayp/generator-poet) [![Dependency Status](https://david-dm.org/akshayp/generator-poet.png)]
 
 A generator for Yeoman to bootstrap a blog powered by [Poet](http://jsantell.github.io/poet/). In addition to setting up the basic directories needed it also lets you import a wordpress export file and parse it into markdown files that can then be used to view your old posts powered by Poet.
 
