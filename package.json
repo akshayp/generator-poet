@@ -1,0 +1,43 @@
+{
+  "name": "generator-poet",
+  "version": "0.0.1",
+  "description": "A generator for a blog powered by Poet using Yeoman",
+  "keywords": [
+    "yeoman-generator",
+    "poet",
+    "wordpress"
+  ],
+  "homepage": "https://github.com/akshayp/generator-poet",
+  "bugs": "https://github.com/akshayp/generator-poet/issues",
+  "author": {
+    "name": "Akshay Patel",
+    "email": "akshayrpatel@gmail.com",
+    "url": "https://github.com/akshayp"
+  },
+  "main": "app/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/akshayp/generator-poet.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "yeoman-generator": "~0.12.0",
+    "xml2js": "0.2.8",
+    "to-markdown": "0.0.1",
+    "cli-color": "0.2.x",
+    "request": "2.21.x"
+  },
+  "devDependencies": {
+    "mocha": "~1.10.0"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ]
+}
