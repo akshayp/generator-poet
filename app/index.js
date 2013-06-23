@@ -8,8 +8,7 @@ var fs = require('fs'),
     xml2js = require('xml2js'),
     parser = new xml2js.Parser(),
     parseutils = require('./utils.js'),
-    notice = clc.blue,
-    success = clc.green;
+    notice = clc.blue;
 
 var PoetGenerator = module.exports = function PoetGenerator() {
     yeoman.generators.Base.apply(this, arguments);
@@ -42,9 +41,10 @@ PoetGenerator.prototype.askFor = function askFor() {
 
 PoetGenerator.prototype.app = function app() {
     var blog = this.blogName,
-        parseWordpress = this.parseWordpress;
+        parseWordpress = this.parseWordpress,
+        self = this;
 
-    console.log(notice('1) Bootstrapping Blog'));
+    console.log(notice('\u2708 Bootstrapping Blog'));
 
     this.mkdir(blog);
     this.mkdir(blog + '/_posts');
@@ -56,8 +56,9 @@ PoetGenerator.prototype.app = function app() {
     this.mkdir(blog + '/views/partials');
 
     if (parseWordpress && fs.existsSync(parseWordpress)) {
+
         fs.readFile(parseWordpress, function (err, data) {
-            console.log(notice('\n2) Parsing Wordpress Export'));
+            console.log(notice('\u2708 Parsing Wordpress Export'));
 
             parser.parseString(data, function (err, result) {
                 var data = result.rss.channel[0],
@@ -79,9 +80,16 @@ PoetGenerator.prototype.app = function app() {
                     }
                 });
 
-                console.log(success('✓ ' + postCount + ' posts parsed and added to _posts'));
-                console.log(success('✓ ' + attachmentCount + ' attachments processed'));
-                console.log(success('✓ ' + pageCount + ' pages processed and added to views'));
+                //Expose for tests
+                self.postCount = postCount;
+                self.attachmentCount = attachmentCount;
+                self.pageCount = pageCount;
+
+                self.emit('poet:processed');
+
+                self.log.ok(postCount + ' posts parsed and added to _posts');
+                self.log.ok(attachmentCount + ' attachments processed');
+                self.log.ok(pageCount + ' pages processed and added to views');
             });
         });
     }
