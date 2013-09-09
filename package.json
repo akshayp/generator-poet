@@ -23,11 +23,11 @@
     "test": "istanbul cover --print summary _mocha -- -R spec && ((cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js) || exit 0)"
   },
   "dependencies": {
-    "yeoman-generator": "~0.12.0",
+    "yeoman-generator": "~0.13.4",
     "xml2js": "0.2.8",
     "to-markdown": "0.0.1",
     "cli-color": "0.2.x",
-    "request": "2.21.x"
+    "request": "2.27.x"
   },
   "devDependencies": {
     "mocha": "~1.10.0",
