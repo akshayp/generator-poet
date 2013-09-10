@@ -30,11 +30,21 @@ PoetGenerator.prototype.askFor = function askFor() {
         'name': 'parseWordpress',
         'message': 'If you would like to parse a wordpress export enter the file path',
         'default': false
+    }, {
+        'name': 'githubUser',
+        'message': 'Github user id to format gists',
+        'default': ''
+    }, {
+        'name': 'oldBlogDomain',
+        'message': 'Domain for your old blog',
+        'default': ''
     }];
 
     this.prompt(prompts, function (props) {
         this.blogName = props.blogName;
         this.parseWordpress = props.parseWordpress;
+        this.githubUser = props.githubUser;
+        this.oldBlogDomain = props.oldBlogDomain;
         cb();
     }.bind(this));
 };
@@ -42,6 +52,8 @@ PoetGenerator.prototype.askFor = function askFor() {
 PoetGenerator.prototype.app = function app() {
     var blog = this.blogName,
         parseWordpress = this.parseWordpress,
+        githubUser = this.githubUser,
+        oldDomain = this.oldBlogDomain,
         self = this;
 
     console.log(notice('\u2708 Bootstrapping Blog'));
@@ -75,7 +87,7 @@ PoetGenerator.prototype.app = function app() {
                         parseutils.addPage(item, blog);
                         pageCount++;
                     } else if (type === 'post') {
-                        parseutils.addPost(item, blog);
+                        parseutils.addPost(item, blog, githubUser, oldDomain);
                         postCount++;
                     }
                 });

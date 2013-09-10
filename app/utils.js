@@ -25,7 +25,7 @@ function addMeta(post) {
     '}}}';
 }
 
-function formatGists(content) {
+function formatGists(content, githubUser) {
     var patt = /\[gist[^\]]*\]/g,
         gists = content.match(patt),
         gistId;
@@ -33,20 +33,23 @@ function formatGists(content) {
     if (gists && gists.length > 0) {
         gists.forEach(function (gist) {
             gistId = gist.match(/\d+/)[0];
-            content = content.replace('[gist id=' + gistId + ']', '<script src="https://gist.github.com/akshayp/' + gistId + '.js"></script>');
+            content = content.replace('[gist id=' + gistId + ']', '<script src="https://gist.github.com/' + githubUser + '/' + gistId + '.js"></script>');
         });
     }
 
     return content;
 }
 
-function addPost(post, blogPath) {
+function addPost(post, blogPath, githubUser, oldDomain) {
     var slug = post['wp:post_name'][0],
         content = toMD(post['content:encoded'][0]),
-        wpContent = /http:\/\/www.akshayp.com\/wp-content\/uploads\/\d+\/\d+\//g;
+        wpContent = new RegExp('http://' + oldDomain + '/wp-content/uploads/\\d+/\\d+/', 'g');
 
     content = content.replace(wpContent, '/img/upload/');
-    content = formatGists(content);
+
+    if (githubUser) {
+        content = formatGists(content, githubUser);
+    }
     content = addMeta(post) + '\n' + content;
 
     fs.writeFile(blogPath + '/_posts/' + slug + '.md', content);
