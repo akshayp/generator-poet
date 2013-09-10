@@ -81,7 +81,7 @@ PoetGenerator.prototype.app = function app() {
                     type = item['wp:post_type'][0];
 
                     if (type === 'attachment') {
-                        //parseutils.fetchAttachment(item, blog);
+                        parseutils.fetchAttachment(item, blog);
                         attachmentCount++;
                     } else if (type === 'page') {
                         parseutils.addPage(item, blog);
