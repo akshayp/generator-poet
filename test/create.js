@@ -47,7 +47,9 @@ describe('poet generator', function () {
 
         helpers.mockPrompt(this.app, {
             'blogName': 'test',
-            'parseWordpress': '../blog.xml'
+            'parseWordpress': '../blog.xml',
+            'githubUser': 'akshayp',
+            'oldBlogDomain': 'www.akshayp.com'
         });
 
         app.run({}, function () {
